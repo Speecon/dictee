@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictee - Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.6;
+            color: #1d1d1f;
+            background: #fff;
+        }
+        h1 { font-size: 28px; font-weight: 600; margin-bottom: 8px; }
+        h2 { font-size: 20px; font-weight: 600; margin-top: 32px; }
+        p { margin: 12px 0; }
+        .subtitle { color: #86868b; font-size: 15px; margin-bottom: 32px; }
+        .highlight { background: #f5f5f7; border-radius: 12px; padding: 20px; margin: 24px 0; }
+        footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #d2d2d7; color: #86868b; font-size: 13px; }
+    </style>
+</head>
+<body>
+    <h1>Dictee Privacy Policy</h1>
+    <p class="subtitle">Last updated: March 19, 2026</p>
+
+    <div class="highlight">
+        <strong>The short version:</strong> Dictee processes everything on your device. We collect no data. We have no servers. Your voice recordings and text never leave your iPhone.
+    </div>
+
+    <h2>What Dictee Does</h2>
+    <p>Dictee is a dictation app that uses on-device machine learning to transcribe speech, rewrite text, and read text aloud. All three AI models run entirely on your iPhone using Apple's MLX framework.</p>
+
+    <h2>Data Collection</h2>
+    <p>Dictee does not collect, store, transmit, or share any personal data. Specifically:</p>
+    <ul>
+        <li><strong>Voice recordings</strong> are processed on-device and deleted immediately after transcription.</li>
+        <li><strong>Transcribed text</strong> exists only in the app's memory during your session. It is not saved to disk or sent anywhere.</li>
+        <li><strong>No analytics, telemetry, or crash reporting</strong> is collected.</li>
+        <li><strong>No network connections</strong> are made by the app. Dictee works entirely offline.</li>
+        <li><strong>No accounts or sign-ups</strong> are required.</li>
+    </ul>
+
+    <h2>Microphone Access</h2>
+    <p>Dictee requests microphone access solely to record your voice for on-device speech recognition. Audio is captured in a temporary file, processed by the on-device AI model, and then the temporary file is deleted. At no point is your audio transmitted over a network.</p>
+
+    <h2>Third-Party Services</h2>
+    <p>Dictee does not integrate with any third-party analytics, advertising, or data processing services. The app has no server-side components.</p>
+
+    <h2>On-Device AI Models</h2>
+    <p>The machine learning models used by Dictee are bundled within the app and run locally on your device's GPU. No model inference is performed remotely. The models are:</p>
+    <ul>
+        <li>Qwen3-ASR (speech recognition)</li>
+        <li>Qwen2.5-1.5B-Instruct (text rewriting)</li>
+        <li>Soprano-80M (text-to-speech)</li>
+    </ul>
+
+    <h2>Data Retention</h2>
+    <p>Since Dictee does not collect any data, there is nothing to retain. Temporary audio files are deleted after each transcription. When you close the app, all session data is gone.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>Dictee does not collect any personal information from anyone, including children under 13.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>If we update this privacy policy, we will post the revised version on this page with an updated date.</p>
+
+    <h2>Contact</h2>
+    <p>If you have questions about this privacy policy, please open an issue on the <a href="https://github.com/andigisa/demo-dictation-native">GitHub repository</a>.</p>
+
+    <footer>
+        &copy; 2026 Andreas Haag. All rights reserved.
+    </footer>
+</body>
+</html>
